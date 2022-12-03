@@ -1,7 +1,13 @@
+import React from "react";
+
+import NavBar from "./assets/components/NavBar";
+
 function App() {
   return (
-    <div className='text-3xl '>Welcome Everyone</div>
-  )
+    <div>
+      <NavBar />
+    </div>
+  );
 }
 
-export default App
+export default App;
